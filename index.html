@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Computers and Information - Minia University</title>
+    <link rel="icon" href="/assets/images/logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><span>FCI</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Programs">Programs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="mb-4"><span>W</span>elcome to the Faculty of Computers and Information</h2>
+                    <p class="mb-4">We are dedicated to providing high-quality education in the field of computer
+                        science
+                        and information
+                        technology.</p>
+                    <a href="#programs" class="btn btn-danger  btn-lg ">Explore Programs</a>
+                </div>
+                <div class="col-md-6 text-center py-5">
+                    <img src="assets/images/education.gif" alt="Education" class="img-fluid gif-img" />
+                </div>
+            </div>
+        </section>
+
+        <section class="about-faculty bg-light text-center py-5 px-3 px-md-5 shadow rounded-4 mb-5" id="about-us">
+            <div class="container">
+                <h3 class="section-title fw-bold mb-4 fs-1">About Us</h3>
+                <p class="section-description fs-5 mx-auto" style="max-width: 800px;">
+                    The Faculty of Computers and Information is committed to excellence in teaching, research, and
+                    community
+                    service. We offer cutting-edge programs in "computer science, and information technology", preparing
+                    students for a dynamic and evolving digital world.
+                </p>
+            </div>
+        </section>
+
+        <section class="programs-offered" id="Programs">
+            <h3 class="section-title mb-5 text-center">Programs Offered</h3>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card program-card text-center h-100 border-0 p-3">
+                            <img src="assets/icons/computer-science.png" class="card-img-top mx-auto program-icon"
+                                alt="Computer Science">
+                            <div class="card-body">
+                                <h5 class="card-title">Computer Science</h5>
+                                <p class="card-text">
+                                    Focuses on software development, algorithms, and computational theory to prepare
+                                    students for diverse IT careers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card program-card text-center h-100 border-0 p-3">
+                            <img src="assets/icons/information.png" class="card-img-top mx-auto program-icon"
+                                alt="Information Systems">
+                            <div class="card-body">
+                                <h5 class="card-title">Information Systems</h5>
+                                <p class="card-text">
+                                    Combines business and technology to design and manage IT solutions for
+                                    organizations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mx-auto">
+                        <div class="card program-card text-center h-100 border-0 p-3">
+                            <img src="assets/icons/cyber-crime.png" class="card-img-top mx-auto program-icon"
+                                alt="Cybersecurity">
+                            <div class="card-body">
+                                <h5 class="card-title">Cybersecurity</h5>
+                                <p class="card-text">
+                                    Prepares students to protect systems and networks from cyber threats and attacks.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section py-3" id="contact-us">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-md-6 text-center">
+                        <img src="assets/images/Mail sent.gif" alt="Education" class="img-fluid gif-img" />
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="mb-3 contact-title">Contact Us</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control form-control" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control form-control" id="email" placeholder="example@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control form-control" id="phone" placeholder="+20 123 456 7890">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control form-control" id="message" rows="4" placeholder="Type your message..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-danger px-4 py-2 mt-2 d-block mx-auto">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="text-center py-4 mt-5">
+        <div class="container">
+            <h5 class="mb-3">Faculty of Computers and Information - Minia University</h5>
+            <div class="mb-3">
+                <a href="#" class="me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="me-3 fs-5"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="me-3 fs-5"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="fs-5"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="mb-0">&copy; 2025 FCI Minia. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

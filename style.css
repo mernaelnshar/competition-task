@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    background-color: #dceaff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 0.4rem 0;
+    border-bottom: #cc2b2b41 2px solid;
+    box-shadow: 0 4px 12px rgba(0, 31, 77, 0.2);
+}
+
+.navbar-brand span {
+    color: #001f4d;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #001f4d;
+    padding: 0.3rem 0.7rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    margin: 0 0.2rem;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #ff3535;
+}
+
+.navbar-toggler {
+    border-color: #001f4d;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(20%) sepia(80%) saturate(600%) hue-rotate(190deg) brightness(90%) contrast(85%);
+}
+
+/* hero section */
+.hero-section {
+    height: 90vh;
+    padding: 10px 30px;
+    border-radius: 0;
+}
+
+.hero-section h2,
+.hero-section p {
+    color: #001f4d;
+}
+
+.hero-section h2 span {
+    color: #ff3535;
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 0 4px 8px rgba(255, 53, 53, 0.2);
+}
+
+.hero-section .btn-danger {
+    background-color: #ff3535;
+    border: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgb(255 53 53 / 0.4);
+}
+
+.hero-section .btn-danger:hover {
+    background-color: #cc2b2b;
+    box-shadow: 0 6px 12px rgb(204 43 43 / 0.6);
+}
+
+.gif-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .hero-section .row {
+        flex-direction: column-reverse;
+    }
+
+    .gif-img {
+        margin-bottom: 3rem;
+    }
+
+    .hero-section {
+        height: 120vh;
+    }
+}
+
+/* about section */
+
+
+.about-faculty {
+    background: linear-gradient(100deg, #dceaffa1 0%, #5e9bf61b 100%);
+    color: #001f4d;
+}
+
+.about-faculty .section-title {
+    color: #ff3535;
+
+}
+
+/* programs section */
+.programs-offered {
+    padding: 60px 20px;
+}
+
+.programs-offered .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff3535;
+}
+
+.program-card {
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.027);
+    transition: transform 0.3s ease;
+
+}
+
+.program-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.program-card:hover .program-icon {
+    transform: scale(1.05) rotate(2deg);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #001f4d;
+    transition: transform 0.3s ease;
+
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #001f4d9f;
+    line-height: 1.6;
+}
+
+.program-card:hover {
+    background: radial-gradient(circle at bottom right, #fe9c9c83 0%, #ffffff 45%, #ffffff 100%);
+    transform: translateY(-6px);
+    transition: 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.program-card:hover .card-title {
+    color: #ff3535;
+}
+
+/* contact section */
+
+.contact-title {
+    color: #ff3535;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #cc2b2b;
+}
+
+.form-label {
+    color: #001f4d;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #ff4d4d;
+    box-shadow: 0 0 0 0.1rem rgba(255, 77, 77, 0.25);
+}
+
+.contact-section .btn {
+    color: white;
+    background-color: #ff3535;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+
+}
+
+.contact-section .btn:hover {
+    background-color: #a91f1f;
+}
+
+/* footer */
+footer {
+    background-color: #001f4d;
+    color: #dceaff;
+}
+
+footer h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #dceaff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff3535;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #dceaff;
+}
+
+footer .container {
+    max-width: 960px;
+}
