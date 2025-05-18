@@ -103,7 +103,6 @@ header {
 
 /* about section */
 
-
 .about-faculty {
     background: linear-gradient(100deg, #dceaffa1 0%, #5e9bf61b 100%);
     color: #001f4d;
@@ -111,8 +110,13 @@ header {
 
 .about-faculty .section-title {
     color: #ff3535;
-
 }
+
+.about-image {
+    max-height: 350px;
+    object-fit: cover;
+}
+
 
 /* programs section */
 .programs-offered {
