@@ -16,7 +16,10 @@
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><span>FCI</span></a>
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="assets/images/لوجو الكلية-01.png" alt="Logo" style="height: 30px; margin-right: 8px;">
+                    <span>FCI</span>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,6 +54,8 @@
 
         <section class="about-faculty bg-light text-center py-5 px-3 px-md-5 shadow rounded-4 mb-5" id="about-us">
             <div class="container">
+                <img src="assets/images/fci.jpg" alt="Faculty Banner" class="img-fluid mb-4 rounded-3 shadow-sm"
+                    style="max-height: 300px; object-fit: cover;">
                 <h3 class="section-title fw-bold mb-4 fs-1">About Us</h3>
                 <p class="section-description fs-5 mx-auto" style="max-width: 800px;">
                     The Faculty of Computers and Information is committed to excellence in teaching, research, and
@@ -120,31 +125,42 @@
                         <form>
                             <div class="mb-3">
                                 <label for="name" class="form-label">Your Name</label>
-                                <input type="text" class="form-control form-control" id="name" placeholder="Enter your name">
+                                <input type="text" class="form-control form-control" id="name"
+                                    placeholder="Enter your name">
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email Address</label>
-                                <input type="email" class="form-control form-control" id="email" placeholder="example@email.com">
+                                <input type="email" class="form-control form-control" id="email"
+                                    placeholder="example@email.com">
                             </div>
                             <div class="mb-3">
                                 <label for="phone" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control form-control" id="phone" placeholder="+20 123 456 7890">
+                                <input type="tel" class="form-control form-control" id="phone"
+                                    placeholder="+20 123 456 7890">
                             </div>
                             <div class="mb-3">
                                 <label for="message" class="form-label">Your Message</label>
-                                <textarea class="form-control form-control" id="message" rows="4" placeholder="Type your message..."></textarea>
+                                <textarea class="form-control form-control" id="message" rows="4"
+                                    placeholder="Type your message..."></textarea>
                             </div>
-                            <button type="submit" class="btn btn-danger px-4 py-2 mt-2 d-block mx-auto">Send Message</button>
+                            <button type="submit" class="btn btn-danger px-4 py-2 mt-2 d-block mx-auto">Send
+                                Message</button>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    
-    <footer class="text-center py-4 mt-5">
+
+    <footer class="text-center py-4 mt-5 ">
         <div class="container">
-            <h5 class="mb-3">Faculty of Computers and Information - Minia University</h5>
+            <!-- Logos -->
+            <div class="d-flex justify-content-center align-items-center gap-4 mb-3 flex-wrap">
+                <img src="assets/images/logo.jpg" alt="Minia University Logo" class="footer-logo" />
+                <h5 class="mb-3">Faculty of Computers and Information - Minia University</h5>
+                <img src="assets/images/جامعة-المنيا.png" alt="Faculty Logo" class="footer-logo" />
+            </div>
+            
             <div class="mb-3">
                 <a href="#" class="me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="me-3 fs-5"><i class="fab fa-twitter"></i></a>
@@ -154,6 +170,7 @@
             <p class="mb-0">&copy; 2025 FCI Minia. All rights reserved.</p>
         </div>
     </footer>
+
 
 
 
